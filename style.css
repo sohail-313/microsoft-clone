@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    position: relative;
+}
+.navbar{
+    display: flex;
+    position: relative;
+   margin: 0 20px;
+}
+.logo{
+    width: 200px;
+    height: 70px;
+    cursor: pointer;
+}
+nav{
+    margin-top: 27px ;
+    display: flex;
+    width: 100%;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    margin: 0 10px;
+    color: black;
+}
+nav ul li a:hover{
+    text-decoration:underline;
+}
+.side-nav{
+    position: relative;
+    flex: 1;
+    text-align: right;
+    margin-right: 100px;
+}
+.side-nav a{
+    text-decoration: none;
+    margin: 0 10px;
+    color: black;
+}
+.side-nav a:hover{
+    text-decoration:underline;
+}
+.photo{
+    cursor: pointer;
+    position: relative;
+   display: flex;
+   justify-content: center;
+}
+
+.img-full{
+    width: 1300px;
+    height:400px;
+}
+.btn1{
+    position: absolute;
+    top: 240px;
+    left: 110px;
+    color: white;
+    background: black ;
+    padding: 10px 30px;
+    border: 0;
+    cursor: pointer;
+}
+.btn1:hover{
+    text-decoration: underline;
+    translate: 1px;
+}
+.font-icon{
+    width: 70%;
+    margin: 60px auto;
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+   
+}
+.fab, .fas{
+    font-size: 40px;
+}
+.para{
+    margin-top: 10px;
+    font-size: 1em;
+}
+.para:hover{
+    text-decoration: underline;
+}
+.mic{
+    text-align: center;
+}
+.g1{
+    width: 275px;
+    height: 160px;
+}
+.gallery{
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+}
+.g1:hover{
+    opacity: 0.9;
+}
+.g1 a{
+    text-decoration: none;
+    color: blue;
+}
+.g1 a:hover{
+    text-decoration: underline;
+}
+.g1 p{
+    margin: 10px 0 20px 0;
+}
+.g1 h3{
+    margin-top: 30px;
+}
+.img2{
+    margin-top: 200px;
+}
+.lastgallery h2{
+    margin:10px 30px;
+}
+.box{
+    background: darkgray;
+    width: 1300px;
+    text-align: center;
+    margin: 200px auto 20px;
+    height: auto;
+    padding: 20px 0;
+}
+.sm{
+    font-size: 30px;
+    margin: 0 10px;
+}
+.sm:hover{
+    opacity: 0.7;
+}
+h5{
+    font-size: 1.5em;
+}
+.icons{
+    display: flex;
+    margin: 25px;
+    cursor: pointer;
+}
+.b{
+    background: blue;
+    color: white;
+   width: 1em;
+   text-align: center;
+}
+.sb{
+    background:skyblue;
+    color: white;
+   width: 1em;
+   text-align: center;
+}
+.r{
+    background:red;
+    color: white;
+   width: 1.3em;
+   text-align: center;
+}
+.box2{
+    background: darkgray;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.d1 p{
+    padding-top: 20px;
+}
+.d1:hover p{
+    text-decoration: underline;
+}
+footer{
+    padding-top: 20px;
+    background: darkgray;
+    display: flex;
+    font-size: 20px;
+}
+.globe{
+    display: flex;
+    padding:0 10px 0 10px;
+}
+.globe p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    margin-left: 10px;
+}
+.fpara{
+    flex: 1;
+    text-align: right;
+}
+.fpara a{
+    
+text-decoration: none;
+font-size: 15px;
+color: black;
+margin: 0 10px;
+}
+.fpara a:hover{
+    text-decoration:underline;
+}
